@@ -2,7 +2,7 @@
 
 Medicsare is a modern and responsive website template built with Astro, designed for healthcare businesses, private clinics, hospitals, medical centers, dentists, and healthcare professionals.
 
-Live demo: https://Medicsare-clinic.netlify.app/
+Live demo: https://medicsare.netlify.app/
 
 ## ✨ Features
 
