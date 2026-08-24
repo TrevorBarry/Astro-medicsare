@@ -15,7 +15,7 @@ const doctors = defineCollection({
 		experienceYears: z.number().int().nonnegative(),
 		image: z.string().min(1),
 		phone: z.string().min(1),
-		email: z.string().email(),
+		email: z.string(),
 		languages: z.array(z.string().min(1)),
 		workingHours: z.object({
 			monday: z.string().min(1),

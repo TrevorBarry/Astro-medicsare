@@ -27,10 +27,12 @@ const {
 						</span>
 						<h3>{item.title}</h3>
 						<p>{item.text}</p>
-						<a href={withBase(item.link.url)}>
-							{item.link.text}
-							<Icon name={item.link.icon} />
-						</a>
+						{item.link && (
+							<a href={withBase(item.link.url)}>
+								{item.link.text}
+								<Icon name={item.link.icon} />
+							</a>
+						)}
 					</li>
 				))}
 			</ul>
