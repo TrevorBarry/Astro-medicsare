@@ -25,8 +25,8 @@ export interface SiteConfig {
 }
 
 const siteConfig: SiteConfig = {
-	name: "Medicsare Clinic",
-	copyright: "© 2026 Medicsare Clinic. All rights reserved.",
+	name: "Weiss Method USA",
+	copyright: "© 2026 Weiss Method USA. All rights reserved.",
 	address: "1200 Medical Plaza, Suite 400, Innovation District, SF 94105",
 	phone: "+1 (000) 123-4567",
 	email: "mail@example.com",
